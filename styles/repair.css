@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+a,
+a:visited {
+    color: #ffffff !important;
+    webkit-transition: color 0.5s;
+    /* Safari */
+    
+    transition: color 0.5s;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    webkit-transition: color 0.5s;
+    /* Safari */
+    
+    transition: color 0.5s;
+    text-decoration: none;
+}
+ .mgmt-links-wrapper .link-box {
+    background: #555555;
+    padding: 34px 10px;
+    text-align: center;
+    min-height: 150px;
+    margin-bottom: 10px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+ .mgmt-links-wrapper a {
+    color: #ffffff !important;
+}
+
+ .mgmt-links-wrapper .link-box:hover {
+    background: #3190dc;
+    -webkit-box-shadow: 0px 5px 8px 0px rgb(79, 91, 97);
+    -moz-box-shadow: 0px 5px 8px 0px rgb(79, 91, 97);
+    box-shadow: 0px 5px 8px 0px rgb(79, 91, 97);
+}
+
+.link-box i {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.link-box p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.modal-img{
+    margin-top: -85px;
+    width: 33%;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background: #6c757d;
+}
+.navbar-nav {
+  overflow: hidden;
+    left: 500px;
+}
+
+.navbar-nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid #555555;
+}
+
+.navbar-nav a.active {
+  border-bottom: 3px solid #555555;
+}
+
+.navbar {
+    background-color: #333333
+}
+
+.modelNames{
+    background-color: #555555;
+    padding: 50px;
+}
